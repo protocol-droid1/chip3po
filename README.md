@@ -1,3 +1,16 @@
+# Chip 3PO
+## A reprogrammable protocol emulator
+
+### TLDR;
+- Our documentation lives in the `docs` folder.
+
+
+
+
+
+# Tiny Tapeout Default Text Below...
+
+
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
 # Tiny Tapeout Verilog Project Template
