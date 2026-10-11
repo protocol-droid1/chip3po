@@ -1,0 +1,155 @@
+{
+  "version": 1,
+  "next_block_id": 11,
+  "blocks": [
+    {
+      "type": "code",
+      "id": 1,
+      "x": 552.0,
+      "y": 100.0,
+      "z": 0,
+      "width": 426.0,
+      "height": 214.0,
+      "color": [
+        0.85,
+        0.96,
+        0.86,
+        1.0
+      ],
+      "role": "initial",
+      "title": "initial",
+      "code": "  initial begin\n    $dumpfile(\"tb.fst\");\n    $dumpvars(0, tb);\n    #1;\n  end",
+      "block_kind": "combinational",
+      "input_port_ids": [],
+      "output_port_ids": [],
+      "source_start": 272,
+      "source_end": 349,
+      "user_placed": false
+    },
+    {
+      "type": "port",
+      "id": 3,
+      "z": 0,
+      "x": 552.0,
+      "y": 566.0,
+      "parent_id": 2,
+      "role": "input",
+      "label": "ui_in",
+      "bit_width": 8
+    },
+    {
+      "type": "port",
+      "id": 4,
+      "z": 0,
+      "x": 552.0,
+      "y": 614.0,
+      "parent_id": 2,
+      "role": "input",
+      "label": "uio_in",
+      "bit_width": 8
+    },
+    {
+      "type": "port",
+      "id": 5,
+      "z": 0,
+      "x": 552.0,
+      "y": 662.0,
+      "parent_id": 2,
+      "role": "input",
+      "label": "ena",
+      "bit_width": 1
+    },
+    {
+      "type": "port",
+      "id": 6,
+      "z": 0,
+      "x": 552.0,
+      "y": 710.0,
+      "parent_id": 2,
+      "role": "input",
+      "label": "clk",
+      "bit_width": 1
+    },
+    {
+      "type": "port",
+      "id": 7,
+      "z": 0,
+      "x": 552.0,
+      "y": 758.0,
+      "parent_id": 2,
+      "role": "input",
+      "label": "rst_n",
+      "bit_width": 1
+    },
+    {
+      "type": "port",
+      "id": 8,
+      "z": 0,
+      "x": 1000.0,
+      "y": 566.0,
+      "parent_id": 2,
+      "role": "output",
+      "label": "uo_out",
+      "bit_width": 8
+    },
+    {
+      "type": "port",
+      "id": 9,
+      "z": 0,
+      "x": 1000.0,
+      "y": 662.0,
+      "parent_id": 2,
+      "role": "output",
+      "label": "uio_out",
+      "bit_width": 8
+    },
+    {
+      "type": "port",
+      "id": 10,
+      "z": 0,
+      "x": 1000.0,
+      "y": 758.0,
+      "parent_id": 2,
+      "role": "output",
+      "label": "uio_oe",
+      "bit_width": 8
+    },
+    {
+      "type": "instance",
+      "id": 2,
+      "x": 552.0,
+      "y": 534.0,
+      "z": 0,
+      "width": 448.0,
+      "height": 256.0,
+      "color": [
+        0.66,
+        0.55,
+        1.0,
+        1.0
+      ],
+      "instance_name": "user_project",
+      "module_name": "tt_um_example",
+      "input_port_ids": [
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "output_port_ids": [
+        8,
+        9,
+        10
+      ],
+      "source_start": 576,
+      "source_end": 1021,
+      "resolved": true,
+      "user_placed": false
+    }
+  ],
+  "language": "verilog",
+  "source": "test/tb.v",
+  "module": "tb",
+  "source_hash": "6eff24e1ea4666b9"
+}
